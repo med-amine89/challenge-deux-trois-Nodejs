@@ -7,9 +7,9 @@ router.post('/send-mail', (req, res) => {
     // email message options
     const mailOptions = {
         from: 'mohamedaminetarchoun@gmail.com',
-        to: 'nagati.rym@gmail.com',
-        subject: 'Nice Nodemailer test',
-        text: 'Hey there, it’s our first message sent with Nodemailer ;) ',
+        to: 'hatem.dagbouj@fivepoints.fr',
+        subject: 'Nodemailer test',
+        text: 'Hey there, it’s our first message sent with Nodemailer to boulahnak thoura ;) ',
         // html: '<b>Hey there! </b><br> This is our first message sent with Nodemailer'
     };
     // email transport configuration
